@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(43, 120, 138);
+    background-color: #0D47A1;
     position: sticky;
     top: 0;
 }
@@ -42,14 +42,15 @@ navbar ul li {
 .navbar ul li a {
     text-decoration: none;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 15px;
     transition: all .5s ease;
+    border-radius: 15px;
 }
 
 .navbar ul li a:hover {
     background-color: black;
     color: white;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 15px white;
 }
 
 /* --- Home Section --- */
